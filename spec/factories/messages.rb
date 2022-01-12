@@ -1,7 +1,9 @@
 # frozen_string_literal: true
 
 FactoryBot.define do
-  factory :room do
-    name { 'default' }
+  factory :message do
+    content { 'Lorem Ipsum' }
+    association :user
+    association :room
   end
 end

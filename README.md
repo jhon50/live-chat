@@ -8,6 +8,7 @@ Rails Version: 6.1.4.4
 
 Features:
 * Real time messaging chat
+* Async message loading
 * User authentication
 * Mail notifications
 

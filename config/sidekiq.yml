@@ -1,0 +1,4 @@
+:schedule:
+  weekly_notification_job:
+    every: 7 days
+    class: WeeklyNotificationJob

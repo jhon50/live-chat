@@ -1,0 +1,7 @@
+<% @messages.each do |message| %>
+  <p>
+    <span><%= message.content %></span>
+    <span><%= message.user_id %></span>
+    <span><%= message.room_id %></span>
+  </p>
+<% end %>

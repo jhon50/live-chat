@@ -1,0 +1,17 @@
+<div class="row">
+  <div class="col-md-2">
+    <% @available_rooms.each do |room| %>
+      <span>Current room: </span><button><%= room.name %></button>
+
+<!--      this enables room switching-->
+<!--      <button value="<%#= room.id %>" data-id="<%#= room.id %>" class="available-room"><%#= room.name %></button>-->
+    <% end %>
+  </div>
+  <div class="col-md-10">
+    <div id="messages"></div>
+
+    <div id="available_rooms" data-available-rooms="<%= @available_rooms.map(&:id).to_json %>"></div>
+
+    <%= render 'messages/form', message: Message.new %>
+  </div>
+</div>
