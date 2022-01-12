@@ -16,7 +16,7 @@ Features:
 Follow these steps to get the project setup on your machine.
 
 ### Clone the repository
-adicionar link do clone
+https://github.com/jhon50/live-chat.git
 
 ### Run the following commands
 ```bash
